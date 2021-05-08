@@ -1,0 +1,13 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 100%;
+  line-height: 1.4;
+  background: #fff;
+}
+
+a {
+  text-decoration: none !important;
+  transition: 0.3s all ease;
+}
+
+/*# sourceMappingURL=layout.css.map */

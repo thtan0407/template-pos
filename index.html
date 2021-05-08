@@ -1,0 +1,1824 @@
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>Screen Pos</title>
+	
+	<script type="text/javascript" src="assets/js/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+	
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/plugins/fontawesome-5.14/css/all.min.css">
+	<link rel="stylesheet" href="assets/css/pos-screen.css">
+	
+	<script type="text/javascript" src="assets/js/theme-function.js"></script>
+</head>
+<body>
+<div class="screen-main position-relative overflow-hidden">
+	<div class="screen-header border-bottom">
+		<div class="container-fluid">
+			<div class="row no-gutters align-items-center">
+				<div class="col-md-3">
+					<div class="screen-logo">
+						<a href="#" class="d-inline-block">
+							<img src="assets/images/logo.png" alt="">
+						</a>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="screen-time text-center">
+						<div class="time-top">19:35:20</div>
+						<div class="time-bottom">
+							<span class="time-day">Thứ 4,</span>
+							<span class="time-days">19</span>
+							<span class="time-month">tháng 08,</span>
+							<span class="time-year">2020</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="screen-customer d-flex align-items-center justify-content-md-end">
+						<a data-toggle="modal" data-target="#modalCustomer" href="javascript:void(0)">Add Customer</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="screen-inner">
+		<div class="container-fluid">
+			<div class="row no-gutters ">
+				<div class="col-md-8">
+					<div class="screen-overflow">
+						<div class="screen-service">
+							<div class="service-ticket ticket-title overflow-hidden position-relative">
+								<div class="col-ticket col-id font-weight-bold">
+									Ticket#
+								</div>
+								<div class="col-ticket col-customer font-weight-bold">
+									Customer
+								</div>
+								<div class="col-ticket col-service font-weight-bold">
+									Service
+								</div>
+								<div class="col-ticket col-staff font-weight-bold">
+									Staff
+								</div>
+								<div class="col-ticket col-status font-weight-bold">
+									Status
+								</div>
+								<div class="col-ticket col-action font-weight-bold"></div>
+							</div>
+							<div class="ticket-row">
+								<div class="ticket-item">
+									<div class="col-id">011</div>
+									<div class="col-customer">Avent Gloria</div>
+									<div class="col-service">
+										<div class="service-name">
+											Pedi-Regular
+										</div>
+										<div class="service-price">
+											<input type="text" class="form-control" value="$ 50.00">
+										</div>
+									</div>
+									<div class="col-staff">
+										<div class="service-staff">
+											<select class="form-control" name="" id="">
+												<option value="">Rosalinda Rosalinda Rosalinda</option>
+												<option value="">Rosalinda 2</option>
+												<option value="">Rosalinda 3</option>
+												<option value="">Rosalinda 4</option>
+												<option value="">Rosalinda 5</option>
+											</select>
+										</div>
+									</div>
+									<div class="col-status">
+										<span class="status-finish">Finish</span>
+									</div>
+									<div class="col-action">
+										<a href="javascript:void(0)" class="addService action-add">Add</a>
+									</div>
+								</div>
+								<div class="ticket-item">
+									<div class="col-id">012</div>
+									<div class="col-customer">Avent Gloria</div>
+									<div class="col-service">
+										<div class="service-name">
+											Pedi-Regular
+										</div>
+										<div class="service-price">
+											<input type="text" class="form-control" value="$ 50.00">
+										</div>
+									</div>
+									<div class="col-staff">
+										<div class="service-staff">
+											<select class="form-control" name="" id="">
+												<option value="">Rosalinda Rosalinda Rosalinda</option>
+												<option value="">Rosalinda 2</option>
+												<option value="">Rosalinda 3</option>
+												<option value="">Rosalinda 4</option>
+												<option value="">Rosalinda 5</option>
+											</select>
+										</div>
+									</div>
+									<div class="col-status">
+										<span class="status-process">Process</span>
+									</div>
+									<div class="col-action">
+										<a href="javascript:void(0)" class="action-noadd">Not ready</a>
+									</div>
+								</div>
+								<div class="ticket-item">
+									<div class="col-id">013</div>
+									<div class="col-customer">Avent Gloria</div>
+									<div class="col-service">
+										<div class="service-name">
+											Pedi-Regular
+										</div>
+										<div class="service-price">
+											<input type="text" class="form-control" value="$ 50.00">
+										</div>
+									</div>
+									<div class="col-staff">
+										<div class="service-staff">
+											<select class="form-control" name="" id="">
+												<option value="">Rosalinda Rosalinda Rosalinda</option>
+												<option value="">Rosalinda 2</option>
+												<option value="">Rosalinda 3</option>
+												<option value="">Rosalinda 4</option>
+												<option value="">Rosalinda 5</option>
+											</select>
+										</div>
+									</div>
+									<div class="col-status">
+										<span class="status-finish">Finish</span>
+									</div>
+									<div class="col-action">
+										<a href="javascript:void(0)" class="addService action-add">Add</a>
+									</div>
+								</div>
+								<div class="ticket-item">
+									<div class="col-id">011</div>
+									<div class="col-customer">Avent Gloria</div>
+									<div class="col-service">
+										<div class="service-name">
+											Pedi-Regular
+										</div>
+										<div class="service-price">
+											<input type="text" class="form-control" value="$ 50.00">
+										</div>
+									</div>
+									<div class="col-staff">
+										<div class="service-staff">
+											<select class="form-control" name="" id="">
+												<option value="">Rosalinda Rosalinda Rosalinda</option>
+												<option value="">Rosalinda 2</option>
+												<option value="">Rosalinda 3</option>
+												<option value="">Rosalinda 4</option>
+												<option value="">Rosalinda 5</option>
+											</select>
+										</div>
+									</div>
+									<div class="col-status">
+										<span class="status-finish">Finish</span>
+									</div>
+									<div class="col-action">
+										<a href="javascript:void(0)" class="addService action-add">Add</a>
+									</div>
+								</div>
+								<div class="ticket-item">
+									<div class="col-id">012</div>
+									<div class="col-customer">Avent Gloria</div>
+									<div class="col-service">
+										<div class="service-name">
+											Pedi-Regular
+										</div>
+										<div class="service-price">
+											<input type="text" class="form-control" value="$ 50.00">
+										</div>
+									</div>
+									<div class="col-staff">
+										<div class="service-staff">
+											<select class="form-control" name="" id="">
+												<option value="">Rosalinda Rosalinda Rosalinda</option>
+												<option value="">Rosalinda 2</option>
+												<option value="">Rosalinda 3</option>
+												<option value="">Rosalinda 4</option>
+												<option value="">Rosalinda 5</option>
+											</select>
+										</div>
+									</div>
+									<div class="col-status">
+										<span class="status-process">Process</span>
+									</div>
+									<div class="col-action">
+										<a href="javascript:void(0)" class="action-noadd">Not ready</a>
+									</div>
+								</div>
+								<div class="ticket-item">
+									<div class="col-id">013</div>
+									<div class="col-customer">Avent Gloria</div>
+									<div class="col-service">
+										<div class="service-name">
+											Pedi-Regular
+										</div>
+										<div class="service-price">
+											<input type="text" class="form-control" value="$ 50.00">
+										</div>
+									</div>
+									<div class="col-staff">
+										<div class="service-staff">
+											<select class="form-control" name="" id="">
+												<option value="">Rosalinda Rosalinda Rosalinda</option>
+												<option value="">Rosalinda 2</option>
+												<option value="">Rosalinda 3</option>
+												<option value="">Rosalinda 4</option>
+												<option value="">Rosalinda 5</option>
+											</select>
+										</div>
+									</div>
+									<div class="col-status">
+										<span class="status-finish">Finish</span>
+									</div>
+									<div class="col-action">
+										<a href="javascript:void(0)" class="addService action-add">Add</a>
+									</div>
+								</div>
+								<div class="ticket-item">
+									<div class="col-id">011</div>
+									<div class="col-customer">Avent Gloria</div>
+									<div class="col-service">
+										<div class="service-name">
+											Pedi-Regular
+										</div>
+										<div class="service-price">
+											<input type="text" class="form-control" value="$ 50.00">
+										</div>
+									</div>
+									<div class="col-staff">
+										<div class="service-staff">
+											<select class="form-control" name="" id="">
+												<option value="">Rosalinda Rosalinda Rosalinda</option>
+												<option value="">Rosalinda 2</option>
+												<option value="">Rosalinda 3</option>
+												<option value="">Rosalinda 4</option>
+												<option value="">Rosalinda 5</option>
+											</select>
+										</div>
+									</div>
+									<div class="col-status">
+										<span class="status-finish">Finish</span>
+									</div>
+									<div class="col-action">
+										<a href="javascript:void(0)" class="addService action-add">Add</a>
+									</div>
+								</div>
+								<div class="ticket-item">
+									<div class="col-id">012</div>
+									<div class="col-customer">Avent Gloria</div>
+									<div class="col-service">
+										<div class="service-name">
+											Pedi-Regular
+										</div>
+										<div class="service-price">
+											<input type="text" class="form-control" value="$ 50.00">
+										</div>
+									</div>
+									<div class="col-staff">
+										<div class="service-staff">
+											<select class="form-control" name="" id="">
+												<option value="">Rosalinda Rosalinda Rosalinda</option>
+												<option value="">Rosalinda 2</option>
+												<option value="">Rosalinda 3</option>
+												<option value="">Rosalinda 4</option>
+												<option value="">Rosalinda 5</option>
+											</select>
+										</div>
+									</div>
+									<div class="col-status">
+										<span class="status-process">Process</span>
+									</div>
+									<div class="col-action">
+										<a href="javascript:void(0)" class="action-noadd">Not ready</a>
+									</div>
+								</div>
+								<div class="ticket-item">
+									<div class="col-id">013</div>
+									<div class="col-customer">Avent Gloria</div>
+									<div class="col-service">
+										<div class="service-name">
+											Pedi-Regular
+										</div>
+										<div class="service-price">
+											<input type="text" class="form-control" value="$ 50.00">
+										</div>
+									</div>
+									<div class="col-staff">
+										<div class="service-staff">
+											<select class="form-control" name="" id="">
+												<option value="">Rosalinda Rosalinda Rosalinda</option>
+												<option value="">Rosalinda 2</option>
+												<option value="">Rosalinda 3</option>
+												<option value="">Rosalinda 4</option>
+												<option value="">Rosalinda 5</option>
+											</select>
+										</div>
+									</div>
+									<div class="col-status">
+										<span class="status-finish">Finish</span>
+									</div>
+									<div class="col-action">
+										<a href="javascript:void(0)" class="addService action-add">Add</a>
+									</div>
+								</div>
+								<div class="ticket-item">
+									<div class="col-id">011</div>
+									<div class="col-customer">Avent Gloria</div>
+									<div class="col-service">
+										<div class="service-name">
+											Pedi-Regular
+										</div>
+										<div class="service-price">
+											<input type="text" class="form-control" value="$ 50.00">
+										</div>
+									</div>
+									<div class="col-staff">
+										<div class="service-staff">
+											<select class="form-control" name="" id="">
+												<option value="">Rosalinda Rosalinda Rosalinda</option>
+												<option value="">Rosalinda 2</option>
+												<option value="">Rosalinda 3</option>
+												<option value="">Rosalinda 4</option>
+												<option value="">Rosalinda 5</option>
+											</select>
+										</div>
+									</div>
+									<div class="col-status">
+										<span class="status-finish">Finish</span>
+									</div>
+									<div class="col-action">
+										<a href="javascript:void(0)" class="addService action-add">Add</a>
+									</div>
+								</div>
+								<div class="ticket-item">
+									<div class="col-id">012</div>
+									<div class="col-customer">Avent Gloria</div>
+									<div class="col-service">
+										<div class="service-name">
+											Pedi-Regular
+										</div>
+										<div class="service-price">
+											<input type="text" class="form-control" value="$ 50.00">
+										</div>
+									</div>
+									<div class="col-staff">
+										<div class="service-staff">
+											<select class="form-control" name="" id="">
+												<option value="">Rosalinda Rosalinda Rosalinda</option>
+												<option value="">Rosalinda 2</option>
+												<option value="">Rosalinda 3</option>
+												<option value="">Rosalinda 4</option>
+												<option value="">Rosalinda 5</option>
+											</select>
+										</div>
+									</div>
+									<div class="col-status">
+										<span class="status-process">Process</span>
+									</div>
+									<div class="col-action">
+										<a href="javascript:void(0)" class="action-noadd">Not ready</a>
+									</div>
+								</div>
+								<div class="ticket-item">
+									<div class="col-id">013</div>
+									<div class="col-customer">Avent Gloria</div>
+									<div class="col-service">
+										<div class="service-name">
+											Pedi-Regular
+										</div>
+										<div class="service-price">
+											<input type="text" class="form-control" value="$ 50.00">
+										</div>
+									</div>
+									<div class="col-staff">
+										<div class="service-staff">
+											<select class="form-control" name="" id="">
+												<option value="">Rosalinda Rosalinda Rosalinda</option>
+												<option value="">Rosalinda 2</option>
+												<option value="">Rosalinda 3</option>
+												<option value="">Rosalinda 4</option>
+												<option value="">Rosalinda 5</option>
+											</select>
+										</div>
+									</div>
+									<div class="col-status">
+										<span class="status-finish">Finish</span>
+									</div>
+									<div class="col-action">
+										<a href="javascript:void(0)" class="addService action-add">Add</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="screen-order">
+						<div class="row-order">
+							<div class="title-order text-center">
+								Receipt # 1234501212
+							</div>
+							<div class="list-order">
+								<ul class="mb-0 list-unstyled">
+									<li>
+										<div class="order-item">
+											<div class="order-col-left">
+												<div class="order-row-service">
+													Pedi - Regular
+												</div>
+												<div class="order-row-staff">
+													Staff: <span>Rosalinda</span>
+												</div>
+											</div>
+											<div class="order-col-middle">
+												<div class="order-row-price">
+													$35.00
+												</div>
+												<div class="order-row-tip">
+													<button class="action-add">Add tip</button>
+												</div>
+											</div>
+											<div class="order-col-right">
+												<button class="action-undo">Undo</button>
+											</div>
+										</div>
+									</li>
+									<li>
+										<div class="order-item">
+											<div class="order-col-left">
+												<div class="order-row-service">
+													Pedi - Regular
+												</div>
+												<div class="order-row-staff">
+													Staff: <span>Rosalinda</span>
+												</div>
+											</div>
+											<div class="order-col-middle">
+												<div class="order-row-price">
+													$35.00
+												</div>
+												<div class="order-row-tip">
+													<button class="action-add">Add tip</button>
+												</div>
+											</div>
+											<div class="order-col-right">
+												<button class="action-undo">Undo</button>
+											</div>
+										</div>
+									</li>
+									<li>
+										<div class="order-item">
+											<div class="order-col-left">
+												<div class="order-row-service">
+													Pedi - Regular
+												</div>
+												<div class="order-row-staff">
+													Staff: <span>Rosalinda</span>
+												</div>
+											</div>
+											<div class="order-col-middle">
+												<div class="order-row-price">
+													$35.00
+												</div>
+												<div class="order-row-tip">
+													<button class="action-add">Add tip</button>
+												</div>
+											</div>
+											<div class="order-col-right">
+												<button class="action-undo">Undo</button>
+											</div>
+										</div>
+									</li>
+									<li>
+										<div class="order-item">
+											<div class="order-col-left">
+												<div class="order-row-service">
+													Pedi - Regular
+												</div>
+												<div class="order-row-staff">
+													Staff: <span>Rosalinda</span>
+												</div>
+											</div>
+											<div class="order-col-middle">
+												<div class="order-row-price">
+													$35.00
+												</div>
+												<div class="order-row-tip">
+													<button class="action-add">Add tip</button>
+												</div>
+											</div>
+											<div class="order-col-right">
+												<button class="action-undo">Undo</button>
+											</div>
+										</div>
+									</li>
+									<li>
+										<div class="order-item">
+											<div class="order-col-left">
+												<div class="order-row-service">
+													Pedi - Regular
+												</div>
+												<div class="order-row-staff">
+													Staff: <span>Rosalinda</span>
+												</div>
+											</div>
+											<div class="order-col-middle">
+												<div class="order-row-price">
+													$35.00
+												</div>
+												<div class="order-row-tip">
+													<button class="action-add">Add tip</button>
+												</div>
+											</div>
+											<div class="order-col-right">
+												<button class="action-undo">Undo</button>
+											</div>
+										</div>
+									</li>
+									<li>
+										<div class="order-item">
+											<div class="order-col-left">
+												<div class="order-row-service">
+													Pedi - Regular
+												</div>
+												<div class="order-row-staff">
+													Staff: <span>Rosalinda</span>
+												</div>
+											</div>
+											<div class="order-col-middle">
+												<div class="order-row-price">
+													$35.00
+												</div>
+												<div class="order-row-tip">
+													<button class="action-add">Add tip</button>
+												</div>
+											</div>
+											<div class="order-col-right">
+												<button class="action-undo">Undo</button>
+											</div>
+										</div>
+									</li>
+									<li>
+										<div class="order-item">
+											<div class="order-col-left">
+												<div class="order-row-service">
+													Pedi - Regular
+												</div>
+												<div class="order-row-staff">
+													Staff: <span>Rosalinda</span>
+												</div>
+											</div>
+											<div class="order-col-middle">
+												<div class="order-row-price">
+													$35.00
+												</div>
+												<div class="order-row-tip">
+													<button class="action-add">Add tip</button>
+												</div>
+											</div>
+											<div class="order-col-right">
+												<button class="action-undo">Undo</button>
+											</div>
+										</div>
+									</li>
+									<li>
+										<div class="order-item">
+											<div class="order-col-left">
+												<div class="order-row-service">
+													Pedi - Regular
+												</div>
+												<div class="order-row-staff">
+													Staff: <span>Rosalinda</span>
+												</div>
+											</div>
+											<div class="order-col-middle">
+												<div class="order-row-price">
+													$35.00
+												</div>
+												<div class="order-row-tip">
+													<button class="action-add">Add tip</button>
+												</div>
+											</div>
+											<div class="order-col-right">
+												<button class="action-undo">Undo</button>
+											</div>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="row-fixed">
+							<div class="row-total">
+								<div class="total-price">
+									<p>Total: </p>
+									<p>$60.00</p>
+								</div>
+								<div class="total-dicount">
+									<p>Dicount: </p>
+									<p>$10.00</p>
+								</div>
+								<div class="total-tax">
+									<p>Tax: </p>
+									<p>000</p>
+								</div>
+								<div class="total-due">
+									<p>Balance Due: </p>
+									<p>$50.00</p>
+								</div>
+							</div>
+							<div class="row-button">
+								<div class="button-inner d-flex align-items-center justify-content-center flex-wrap">
+									<div class="button-item">
+										<button data-toggle="modal" data-target="#modalCard" class="action-button">Card
+										</button>
+									</div>
+									<div class="button-item">
+										<button data-toggle="modal" data-target="#modalCash" class="action-button">Cash
+										</button>
+									</div>
+									<div class="button-item">
+										<button data-toggle="modal" data-target="#modalCheck" class="action-button">
+											Check
+										</button>
+									</div>
+									<div class="button-item">
+										<button data-toggle="modal" data-target="#modalGiftCard-right"
+										        class="action-button">Giftcard
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="screen-footer">
+		<div class="row no-gutters">
+			<div class="col-md-8">
+				<div class="row no-gutters">
+					<div class="col-md-2">
+						<button data-toggle="modal" data-target="#modalOpenTill" class="action-success">Open
+							till
+						</button>
+					</div>
+					<div class="col-md-2">
+						<button data-toggle="modal" data-target="#modalGiftCard" class="action-success">Gift
+							Card
+						</button>
+					</div>
+					<div class="col-md-2">
+						<button data-toggle="modal" data-target="#modalProducts" class="action-success">
+							Products
+						</button>
+					</div>
+					<div class="col-md-2">
+						<button data-toggle="modal" data-target="#modalDiscount" class="action-success">
+							Discount
+						</button>
+					</div>
+					<div class="col-md-2">
+						<button data-toggle="modal" data-target="#modalHoldTicket" class="action-success">Hold
+							Ticket
+						</button>
+					</div>
+					<div class="col-md-2">
+						<button data-toggle="modal" data-target="#modalHoldList"
+						        class="action-success no-border">Hold List
+						</button>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="row-button">
+					<div class="button-payment d-flex align-items-center justify-content-center flex-wra">
+						<div class="button-item">
+							<!-- Click button add class "active-button" giúp em để đổi màu nha anh -->
+							<button class="action-payment active-button">Split payment</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<script>
+	$(document).ready(function () {
+		heightRowFixed = "calc(100vh - 125px - 2.5rem - " + $('.row-fixed').height() + "px)";
+		$('.screen-main .screen-inner .screen-order .row-order .list-order ul').css({"max-height": heightRowFixed});
+	});
+	
+	
+	// $(document).ready(function () {
+	//     var windowWidth = $(window).width();
+	//     heightScreen = 500;
+	//
+	//     if (windowWidth >= 1367 && windowWidth < 1518) {
+	//         heightScreen = 500 * 1.15;
+	//         if ($('.screen-overflow').outerHeight() > heightScreen) {
+	//             $('.screen-overflow').css({"overflow-y": "scroll", "max-height": heightScreen});
+	//         }
+	//     }
+	//
+	//     if (windowWidth >= 1518 && windowWidth < 1708) {
+	//         heightScreen = 500 * 1.25;
+	//         console.log(heightScreen);
+	//         if ($('.screen-overflow').outerHeight() > heightScreen) {
+	//             $('.screen-overflow').css({"overflow-y": "scroll", "max-height": heightScreen});
+	//         }
+	//     }
+	//
+	//     if (windowWidth >= 1708 && windowWidth < 1822) {
+	//         heightScreen = 500 * 1.33;
+	//         console.log(heightScreen);
+	//         if ($('.screen-overflow').outerHeight() > heightScreen) {
+	//             $('.screen-overflow').css({"overflow-y": "scroll", "max-height": heightScreen});
+	//         }
+	//     }
+	//
+	//     if (windowWidth >= 1822 && windowWidth < 2050) {
+	//         heightScreen = 500 * 1.5;
+	//         console.log(heightScreen);
+	//         if ($('.screen-overflow').outerHeight() > heightScreen) {
+	//             $('.screen-overflow').css({"overflow-y": "scroll", "max-height": heightScreen});
+	//         }
+	//     }
+	//
+	//     if (windowWidth >= 2050 && windowWidth < 2733) {
+	//         heightScreen = 500 * 2;
+	//         console.log(heightScreen);
+	//         if ($('.screen-overflow').outerHeight() > heightScreen) {
+	//             $('.screen-overflow').css({"overflow-y": "scroll", "max-height": heightScreen});
+	//         }
+	//     }
+	//
+	//     if (windowWidth >= 2733 && windowWidth < 4100) {
+	//         heightScreen = 500 * 3;
+	//         console.log(heightScreen);
+	//         if ($('.screen-overflow').outerHeight() > heightScreen) {
+	//             $('.screen-overflow').css({"overflow-y": "scroll", "max-height": heightScreen});
+	//         }
+	//     }
+	//
+	//     if (windowWidth >= 4100) {
+	//         heightScreen = 500 * 4.1;
+	//         console.log(heightScreen);
+	//         if ($('.screen-overflow').outerHeight() > heightScreen) {
+	//             $('.screen-overflow').css({"overflow-y": "scroll", "max-height": heightScreen});
+	//         }
+	//     }
+	//
+	//     if ($('.screen-overflow').outerHeight() > heightScreen) {
+	//         $('.screen-overflow').css({"overflow-y": "scroll", "max-height": heightScreen});
+	//     }
+	// });
+</script>
+
+
+<!-- Modal Khách hàng -->
+<div class="modal modal-pos modal-customer fade" data-backdrop="false" id="modalCustomer" tabindex="-1" role="dialog">
+	<div class="modal-dialog modal-xxl" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<div class="modal-title"><span><i class="fa fa-user"></i></span>Modal Customer</div>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<i class="fa fa-times"></i>
+				</button>
+			</div>
+			<div class="modal-body">
+				<div class="content-customer">
+					<table class="table table-bordered table-hover">
+						<tr class="background-light">
+							<th>Fullname</th>
+							<th>Number phone</th>
+							<th>Address Email</th>
+							<th>Address</th>
+							<th>Action</th>
+						</tr>
+						<tr>
+							<td>Nguyễn Văn A</td>
+							<td>0909.090.909</td>
+							<td>nguyenvana@gmail.com</td>
+							<td>141/23A Trần Hoàng Na, Ninh Kiều, Cần Thơ</td>
+							<td>
+								<div class="choose-customer">
+									<input type="radio" name="choose-customer" id="choose-customer01">
+									<label for="choose-customer01">
+										<span>Choose</span>
+									</label>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td>Nguyễn Văn A</td>
+							<td>0909.090.909</td>
+							<td>nguyenvana@gmail.com</td>
+							<td>141/23A Trần Hoàng Na, Ninh Kiều, Cần Thơ</td>
+							<td>
+								<div class="choose-customer">
+									<input type="radio" name="choose-customer" id="choose-customer02">
+									<label for="choose-customer02">
+										<span>Choose</span>
+									</label>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td>Nguyễn Văn A</td>
+							<td>0909.090.909</td>
+							<td>nguyenvana@gmail.com</td>
+							<td>141/23A Trần Hoàng Na, Ninh Kiều, Cần Thơ</td>
+							<td>
+								<div class="choose-customer">
+									<input type="radio" name="choose-customer" id="choose-customer03">
+									<label for="choose-customer03">
+										<span>Choose</span>
+									</label>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td>Nguyễn Văn A</td>
+							<td>0909.090.909</td>
+							<td>nguyenvana@gmail.com</td>
+							<td>141/23A Trần Hoàng Na, Ninh Kiều, Cần Thơ</td>
+							<td>
+								<div class="choose-customer">
+									<input type="radio" name="choose-customer" id="choose-customer04">
+									<label for="choose-customer04">
+										<span>Choose</span>
+									</label>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td>Nguyễn Văn A</td>
+							<td>0909.090.909</td>
+							<td>nguyenvana@gmail.com</td>
+							<td>141/23A Trần Hoàng Na, Ninh Kiều, Cần Thơ</td>
+							<td>
+								<div class="choose-customer">
+									<input type="radio" name="choose-customer" id="choose-customer05">
+									<label for="choose-customer05">
+										<span>Choose</span>
+									</label>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td>Nguyễn Văn A</td>
+							<td>0909.090.909</td>
+							<td>nguyenvana@gmail.com</td>
+							<td>141/23A Trần Hoàng Na, Ninh Kiều, Cần Thơ</td>
+							<td>
+								<div class="choose-customer">
+									<input type="radio" name="choose-customer" id="choose-customer06">
+									<label for="choose-customer06">
+										<span>Choose</span>
+									</label>
+								</div>
+							</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Modal Open Till -->
+<div class="modal modal-pos modal-openTill fade" data-backdrop="false" id="modalOpenTill" tabindex="-1" role="dialog">
+	<div class="modal-dialog modal-xxl" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<div class="modal-title"><span><i class="fa fa-money-bill-wave"></i></span> Open Till</div>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<i class="fa fa-times"></i>
+				</button>
+			</div>
+			<div class="modal-body">
+				<div class="openTill-content">
+					<div class="openTill-header">
+						<label for="id01">Amount: </label>
+						<input id="id01" type="text" value="$ 150.00">
+					</div>
+					<div class="openTill-body">
+						<div class="button-item">
+							<button class="button-style button-change">Change</button>
+							<button class="button-style button-add">Add</button>
+							<button class="button-style button-drop">Drop</button>
+						</div>
+					</div>
+					<div class="openTill-footer">
+						<div class="openTill-flex">
+							<div class="openTill-f-left">
+								<div class="openTill-item">
+									<div class="openTill-item-Title">
+										In Till
+									</div>
+									<div class="openTill-item-list">
+										<div class="openTill-group">
+											<label for="one-dollar">$1</label>
+											<input type="number" value="0" id="one-dollar">
+										</div>
+										<div class="openTill-group">
+											<label for="five-dollar">$5</label>
+											<input type="number" value="0" id="five-dollar">
+										</div>
+										<div class="openTill-group">
+											<label for="twenty-dollar">$20</label>
+											<input type="number" value="0" id="twenty-dollar">
+										</div>
+										<div class="openTill-group">
+											<label for="fifty-dollar">$20</label>
+											<input type="number" value="0" id="fifty-dollar">
+										</div>
+										<div class="openTill-group">
+											<label for="one-hundred-dollar">$100</label>
+											<input type="number" value="0" id="one-hundred-dollar">
+										</div>
+									</div>
+								</div>
+								<div class="openTill-item">
+									<div class="openTill-item-Title">
+										New Change
+									</div>
+									<div class="openTill-item-list">
+										<div class="openTill-group">
+											<label for="one-dollar">$1</label>
+											<input type="number" value="0" id="one-dollar">
+										</div>
+										<div class="openTill-group">
+											<label for="five-dollar">$5</label>
+											<input type="number" value="0" id="five-dollar">
+										</div>
+										<div class="openTill-group">
+											<label for="twenty-dollar">$20</label>
+											<input type="number" value="0" id="twenty-dollar">
+										</div>
+										<div class="openTill-group">
+											<label for="fifty-dollar">$20</label>
+											<input type="number" value="0" id="fifty-dollar">
+										</div>
+										<div class="openTill-group">
+											<label for="one-hundred-dollar">$100</label>
+											<input type="number" value="0" id="one-hundred-dollar">
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="openTill-f-right">
+								<button class="button-style button-create">Open & Print</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Modal Gift Card -->
+<div class="modal modal-pos modal-giftCard fade" data-backdrop="false" id="modalGiftCard" tabindex="-1" role="dialog">
+	<div class="modal-dialog modal-xxl" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<div class="modal-title"><span><i class="fa fa-pencil-alt"></i></span>Create GiftCard</div>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<i class="fa fa-times"></i>
+				</button>
+			</div>
+			<div class="modal-body">
+				<div class="giftCard-content">
+					<div class="giftCard-header">
+						<div class="giftCard-inner">
+							<!-- Nếu có gắn thẻ form thì anh gắn form bọc cái class giftcard-form nha -->
+							<form action="">
+								<div class="giftCard-form">
+									<div class="form-left">
+										<div class="modalForm-group">
+											<label for="name-giftcard">Name:</label>
+											<input type="text" value="" id="name-giftcard">
+										</div>
+										<div class="modalForm-group">
+											<label for="phone-giftcard">Phone Number:</label>
+											<input type="tel" value="" id="phone-giftcard">
+										</div>
+										<div class="modalForm-group">
+											<label for="email-giftcard">Email:</label>
+											<input type="email" value="" id="email-giftcard">
+										</div>
+										<div class="modalForm-group">
+											<label for="address-giftcard">Address:</label>
+											<input type="text" value="" id="address-giftcard">
+										</div>
+										<div class="modalForm-group">
+											<label for="amount-giftcard">Amount</label>
+											<input type="text" value="" id="amount-giftcard">
+										</div>
+										<div class="modalForm-group">
+											<label for="number-giftcard">Number of giftcard</label>
+											<input type="text" value="" id="number-giftcard">
+										</div>
+									</div>
+									<div class="form-right">
+										<button class="button-style button-create">Create</button>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+					<div class="giftCard-footer">
+						<div class="giftCard-form">
+							<div class="form-left">
+								<div class="modalForm-group">
+									<label for="name-giftcard">Name:</label>
+									<div class="return-result">Nguyễn Văn A</div>
+								</div>
+								<div class="modalForm-group">
+									<label for="phone-giftcard">Phone Number:</label>
+									<div class="return-result">0909.090.909</div>
+								</div>
+								<div class="modalForm-group">
+									<label for="email-giftcard">Email:</label>
+									<div class="return-result">nguyenvana@gmail.com</div>
+								</div>
+								<div class="modalForm-group">
+									<label for="address-giftcard">Address:</label>
+									<div class="return-result">141/23A Trần Hoàng Na, Ninh Kiều, Cần Thơ
+									</div>
+								</div>
+								<div class="modalForm-group">
+									<label for="amount-giftcard">Amount</label>
+									<div class="return-result">$100.00</div>
+								</div>
+								<div class="modalForm-group">
+									<label for="number-giftcard">Number of giftcard</label>
+									<div class="return-result">4</div>
+								</div>
+							</div>
+							<div class="form-right">
+								<button class="button-style button-print">Print Code & Add To Ticket</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Modal Products -->
+<div class="modal modal-pos modal-products fade" data-backdrop="false" id="modalProducts" tabindex="-1" role="dialog">
+	<div class="modal-dialog modal-xxl" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<div class="modal-title"><span><i class="fa fa-shopping-basket"></i></span>List Product</div>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<i class="fa fa-times"></i>
+				</button>
+			</div>
+			<div class="modal-body">
+				<div class="product-content">
+					<div class="product-header">
+						<div class="col-name">
+							Sản phẩm
+						</div>
+						<div class="col-price">
+							Giá
+						</div>
+						<div class="col-quantity">
+							Số lượng
+						</div>
+						<div class="col-action">
+							Thao tác
+						</div>
+					</div>
+					<div class="product-body">
+						<div class="product-item">
+							<div class="col-name">
+								<div class="content">
+									<div class="image">
+										<img src="./assets/images/product.jpg" alt="">
+									</div>
+									<div class="name">
+										Lorem ipsum dolor sit
+									</div>
+								</div>
+							</div>
+							<div class="col-price">
+								<div class="content">
+									$ 50.00
+								</div>
+							</div>
+							<div class="col-quantity">
+								<div class="content">
+									<button class="button-changeQuantity" disabled="" data-type="2">
+										<i class="fa fa-minus"></i>
+									</button>
+									<input type="number" class="input-changeQuantity" min="1" max="10"
+									       name="quanity" value="1" >
+									<button class="button-changeQuantity" data-type="1">
+										<i class="fa fa-plus"></i>
+									</button>
+								</div>
+							</div>
+							<div class="col-action">
+								<div class="content">
+									<button class="action-add">Add <i class="fa fa-plus"></i></button>
+									<button class="action-edit">Edit <i class="fa fa-edit"></i></button>
+								</div>
+							</div>
+						</div>
+						<div class="product-item">
+							<div class="col-name">
+								<div class="content">
+									<div class="image">
+										<img src="./assets/images/product.jpg" alt="">
+									</div>
+									<div class="name">
+										Lorem ipsum dolor sit
+									</div>
+								</div>
+							</div>
+							<div class="col-price">
+								<div class="content">
+									$ 50.00
+								</div>
+							</div>
+							<div class="col-quantity">
+								<div class="content">
+									<button class="button-changeQuantity" disabled="" data-type="2">
+										<i class="fa fa-minus"></i>
+									</button>
+									<input type="number" class="input-changeQuantity" min="1" max="10"
+									       name="quanity" value="1" >
+									<button class="button-changeQuantity" data-type="1">
+										<i class="fa fa-plus"></i>
+									</button>
+								</div>
+							</div>
+							<div class="col-action">
+								<div class="content">
+									<button class="action-add">Add <i class="fa fa-plus"></i></button>
+									<button class="action-edit">Edit <i class="fa fa-edit"></i></button>
+								</div>
+							</div>
+						</div>
+						<div class="product-item">
+							<div class="col-name">
+								<div class="content">
+									<div class="image">
+										<img src="./assets/images/product.jpg" alt="">
+									</div>
+									<div class="name">
+										Lorem ipsum dolor sit
+									</div>
+								</div>
+							</div>
+							<div class="col-price">
+								<div class="content">
+									$ 50.00
+								</div>
+							</div>
+							<div class="col-quantity">
+								<div class="content">
+									<button class="button-changeQuantity" disabled="" data-type="2">
+										<i class="fa fa-minus"></i>
+									</button>
+									<input type="number" class="input-changeQuantity" min="1" max="10"
+									       name="quanity" value="1" >
+									<button class="button-changeQuantity" data-type="1">
+										<i class="fa fa-plus"></i>
+									</button>
+								</div>
+							</div>
+							<div class="col-action">
+								<div class="content">
+									<button class="action-add">Add <i class="fa fa-plus"></i></button>
+									<button class="action-edit">Edit <i class="fa fa-edit"></i></button>
+								</div>
+							</div>
+						</div>
+						<div class="product-item">
+							<div class="col-name">
+								<div class="content">
+									<div class="image">
+										<img src="./assets/images/product.jpg" alt="">
+									</div>
+									<div class="name">
+										Lorem ipsum dolor sit
+									</div>
+								</div>
+							</div>
+							<div class="col-price">
+								<div class="content">
+									$ 50.00
+								</div>
+							</div>
+							<div class="col-quantity">
+								<div class="content">
+									<button class="button-changeQuantity" disabled="" data-type="2">
+										<i class="fa fa-minus"></i>
+									</button>
+									<input type="number" class="input-changeQuantity" min="1" max="10"
+									       name="quanity" value="1" >
+									<button class="button-changeQuantity" data-type="1">
+										<i class="fa fa-plus"></i>
+									</button>
+								</div>
+							</div>
+							<div class="col-action">
+								<div class="content">
+									<button class="action-add">Add <i class="fa fa-plus"></i></button>
+									<button class="action-edit">Edit <i class="fa fa-edit"></i></button>
+								</div>
+							</div>
+						</div>
+						<div class="product-item">
+							<div class="col-name">
+								<div class="content">
+									<div class="image">
+										<img src="./assets/images/product.jpg" alt="">
+									</div>
+									<div class="name">
+										Lorem ipsum dolor sit
+									</div>
+								</div>
+							</div>
+							<div class="col-price">
+								<div class="content">
+									$ 50.00
+								</div>
+							</div>
+							<div class="col-quantity">
+								<div class="content">
+									<button class="button-changeQuantity" disabled="" data-type="2">
+										<i class="fa fa-minus"></i>
+									</button>
+									<input type="number" class="input-changeQuantity" min="1" max="10"
+									       name="quanity" value="1" >
+									<button class="button-changeQuantity" data-type="1">
+										<i class="fa fa-plus"></i>
+									</button>
+								</div>
+							</div>
+							<div class="col-action">
+								<div class="content">
+									<button class="action-add">Add <i class="fa fa-plus"></i></button>
+									<button class="action-edit">Edit <i class="fa fa-edit"></i></button>
+								</div>
+							</div>
+						</div>
+						<div class="product-item">
+							<div class="col-name">
+								<div class="content">
+									<div class="image">
+										<img src="./assets/images/product.jpg" alt="">
+									</div>
+									<div class="name">
+										Lorem ipsum dolor sit
+									</div>
+								</div>
+							</div>
+							<div class="col-price">
+								<div class="content">
+									$ 50.00
+								</div>
+							</div>
+							<div class="col-quantity">
+								<div class="content">
+									<button class="button-changeQuantity" disabled="" data-type="2">
+										<i class="fa fa-minus"></i>
+									</button>
+									<input type="number" class="input-changeQuantity" min="1" max="10"
+									       name="quanity" value="1" >
+									<button class="button-changeQuantity" data-type="1">
+										<i class="fa fa-plus"></i>
+									</button>
+								</div>
+							</div>
+							<div class="col-action">
+								<div class="content">
+									<button class="action-add">Add <i class="fa fa-plus"></i></button>
+									<button class="action-edit">Edit <i class="fa fa-edit"></i></button>
+								</div>
+							</div>
+						</div>
+						<div class="product-item">
+							<div class="col-name">
+								<div class="content">
+									<div class="image">
+										<img src="./assets/images/product.jpg" alt="">
+									</div>
+									<div class="name">
+										Lorem ipsum dolor sit
+									</div>
+								</div>
+							</div>
+							<div class="col-price">
+								<div class="content">
+									$ 50.00
+								</div>
+							</div>
+							<div class="col-quantity">
+								<div class="content">
+									<button class="button-changeQuantity" disabled="" data-type="2">
+										<i class="fa fa-minus"></i>
+									</button>
+									<input type="number" class="input-changeQuantity" min="1" max="10"
+									       name="quanity" value="1" >
+									<button class="button-changeQuantity" data-type="1">
+										<i class="fa fa-plus"></i>
+									</button>
+								</div>
+							</div>
+							<div class="col-action">
+								<div class="content">
+									<button class="action-add">Add <i class="fa fa-plus"></i></button>
+									<button class="action-edit">Edit <i class="fa fa-edit"></i></button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Modal Discount -->
+<div class="modal modal-pos modal-discount fade" data-backdrop="false" id="modalDiscount" tabindex="-1" role="dialog">
+	<div class="modal-dialog modal-xxl" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<div class="modal-title"><span><i class="fa fa-tags"></i></span>Discount Customer</div>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<i class="fa fa-times"></i>
+				</button>
+			</div>
+			<div class="modal-body">
+				<div class="discount-content">
+					<div class="discount-header">
+						<label for="id02">Customer Account: </label>
+						<select id="id02">
+							<option value="">Nguyễn Văn A</option>
+							<option value="">Nguyễn Văn A</option>
+							<option value="">Nguyễn Văn A</option>
+							<option value="">Nguyễn Văn A</option>
+							<option value="">Nguyễn Văn A</option>
+							<option value="">Nguyễn Văn A</option>
+							<option value="">Nguyễn Văn A</option>
+							<option value="">Nguyễn Văn A</option>
+						</select>
+					</div>
+					<div class="discount-body">
+						<div class="discount-flex">
+							<div class="discount-left">
+								<div class="discount-item">
+									<div class="discount-group">
+										<label>Giảm giá 10% dịch vụ</label>
+										<button class="button-style button-change">Use Discount</button>
+									</div>
+								</div>
+								<div class="discount-item">
+									<div class="discount-group">
+										<label>Giảm giá 15% dịch vụ</label>
+										<button class="button-style button-change">Use Discount</button>
+									</div>
+								</div>
+								<div class="discount-item">
+									<div class="discount-group">
+										<label>Giảm 1 dịch vụ</label>
+										<button class="button-style button-change">Use Discount</button>
+									</div>
+								</div>
+								<div class="discount-item">
+									<div class="discount-group">
+										<label>Mua 2 tặng 1</label>
+										<button class="button-style button-change">Use Discount</button>
+									</div>
+								</div>
+							</div>
+							<div class="discount-right">
+								<button class="button-style button-create">Add To Ticket</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Modal Hold Ticket -->
+<div class="modal modal-pos modal-holdTicket fade" data-backdrop="false" id="modalHoldTicket" tabindex="-1"
+     role="dialog">
+	<div class="modal-dialog modal-xxl" role="document">
+		<div class="modal-content">
+			<div class="modal-header d-none">
+				<div class="modal-title"><span><i class="fa fa-user"></i></span></div>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<i class="fa fa-times"></i>
+				</button>
+			</div>
+			<div class="modal-body">
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Modal Hold List -->
+<div class="modal modal-pos modal-holdList fade" data-backdrop="false" id="modalHoldList" tabindex="-1" role="dialog">
+	<div class="modal-dialog modal-xxl" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<div class="modal-title"><span><i class="fa fa-user"></i></span>Hold List</div>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<i class="fa fa-times"></i>
+				</button>
+			</div>
+			<div class="modal-body">
+				<div class="holdList-content">
+					<div class="holdList-body">
+						<div class="holdList-item holdList-title">
+							<div class="holdList-column holdList-invoice">
+								Invoice#
+							</div>
+							<div class="holdList-column holdList-customer">
+								Customer
+							</div>
+							<div class="holdList-column holdList-action">
+								Action
+							</div>
+						</div>
+						<div class="holdList-item">
+							<div class="holdList-column holdList-invoice">
+								01234
+							</div>
+							<div class="holdList-column holdList-customer">
+								<select>
+									<option value="">Nguyễn Văn A</option>
+									<option value="">Nguyễn Văn A</option>
+									<option value="">Nguyễn Văn A</option>
+									<option value="">Nguyễn Văn A</option>
+									<option value="">Nguyễn Văn A</option>
+									<option value="">Nguyễn Văn A</option>
+									<option value="">Nguyễn Văn A</option>
+									<option value="">Nguyễn Văn A</option>
+								</select>
+							</div>
+							<div class="holdList-column holdList-action">
+								<button class="button-style button-change">
+									Open to pay
+								</button>
+							</div>
+						</div>
+						<div class="holdList-item">
+							<div class="holdList-column holdList-invoice">
+								01234
+							</div>
+							<div class="holdList-column holdList-customer">
+								<select>
+									<option value="">Nguyễn Văn A</option>
+									<option value="">Nguyễn Văn A</option>
+									<option value="">Nguyễn Văn A</option>
+									<option value="">Nguyễn Văn A</option>
+									<option value="">Nguyễn Văn A</option>
+									<option value="">Nguyễn Văn A</option>
+									<option value="">Nguyễn Văn A</option>
+									<option value="">Nguyễn Văn A</option>
+								</select>
+							</div>
+							<div class="holdList-column holdList-action">
+								<button class="button-style button-change">
+									Open to pay
+								</button>
+							</div>
+						</div>
+						<div class="holdList-item">
+							<div class="holdList-column holdList-invoice">
+								01234
+							</div>
+							<div class="holdList-column holdList-customer">
+								<select>
+									<option value="">Nguyễn Văn A</option>
+									<option value="">Nguyễn Văn A</option>
+									<option value="">Nguyễn Văn A</option>
+									<option value="">Nguyễn Văn A</option>
+									<option value="">Nguyễn Văn A</option>
+									<option value="">Nguyễn Văn A</option>
+									<option value="">Nguyễn Văn A</option>
+									<option value="">Nguyễn Văn A</option>
+								</select>
+							</div>
+							<div class="holdList-column holdList-action">
+								<button class="button-style button-change">
+									Open to pay
+								</button>
+							</div>
+						</div>
+						<div class="holdList-item">
+							<div class="holdList-column holdList-invoice">
+								01234
+							</div>
+							<div class="holdList-column holdList-customer">
+								<select>
+									<option value="">Nguyễn Văn A</option>
+									<option value="">Nguyễn Văn A</option>
+									<option value="">Nguyễn Văn A</option>
+									<option value="">Nguyễn Văn A</option>
+									<option value="">Nguyễn Văn A</option>
+									<option value="">Nguyễn Văn A</option>
+									<option value="">Nguyễn Văn A</option>
+									<option value="">Nguyễn Văn A</option>
+								</select>
+							</div>
+							<div class="holdList-column holdList-action">
+								<button class="button-style button-change">
+									Open to pay
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Modal Card -->
+<div class="modal modal-pos modal-card fade" data-backdrop="false" id="modalCard" tabindex="-1"
+     role="dialog">
+	<div class="modal-dialog modal-xxl" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<div class="modal-title"><span><i class="fa fa-id-card"></i></span>Popup Card</div>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<i class="fa fa-times"></i>
+				</button>
+			</div>
+			<div class="modal-body">
+				<div class="modalCard-content">
+					<div class="modalCard-body">
+						<div class="modalCard-header">
+							<div class="modalCard-item">
+								<label for="modalAmount-due">Amount Due: </label>
+								<input type="text" id="modalAmount-due">
+							</div>
+							<div class="modalCard-item">
+								<label for="modalCard-number">Last 4 card number: </label>
+								<input type="text" id="modalCard-number">
+							</div>
+						</div>
+						<div class="modalCard-footer">
+							<button class="button-style button-create">Finalize</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Modal Check -->
+<div class="modal modal-pos modal-check fade" data-backdrop="false" id="modalCheck" tabindex="-1"
+     role="dialog">
+	<div class="modal-dialog modal-xxl" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<div class="modal-title"><span><i class="fa fa-id-card"></i></span>Popup Card</div>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<i class="fa fa-times"></i>
+				</button>
+			</div>
+			<div class="modal-body">
+				<div class="modalCheck-content">
+					<div class="modalCheck-body">
+						<div class="modalCheck-header">
+							<div class="modalCheck-item">
+								<label for="modalCheck-due">Amount Due: </label>
+								<input type="text" id="modalCheck-due">
+							</div>
+							<div class="modalCheck-item">
+								<label for="modalCheck-license">Check# - License#: </label>
+								<input type="text" id="modalCheck-license">
+							</div>
+						</div>
+						<div class="modalCheck-footer">
+							<button class="button-style button-create">Finalize</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Modal Cash -->
+<div class="modal modal-pos modal-cash fade" data-backdrop="false" id="modalCash" tabindex="-1"
+     role="dialog">
+	<div class="modal-dialog modal-xxl" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<div class="modal-title"><span><i class="fa fa-wallet"></i></span>Popup Cash</div>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<i class="fa fa-times"></i>
+				</button>
+			</div>
+			<div class="modal-body">
+				<div class="modalCash-content">
+					<div class="modalCash-header">
+						<label for="id03">Amount: </label>
+						<input id="id03" type="text" value="$ 150.00">
+					</div>
+					<div class="modalCash-body">
+						<div class="modalCash-money">
+							<div class="modalCash-item">
+								<a href="javasript:void(0)">
+									<i class="fa fa-money-bill"></i>
+									<p>$1</p>
+									<span></span>
+								</a>
+							</div>
+							<div class="modalCash-item">
+								<a href="javasript:void(0)">
+									<i class="fa fa-money-bill"></i>
+									<p>$5</p>
+									<span></span>
+								</a>
+							</div>
+							<div class="modalCash-item">
+								<a href="javasript:void(0)">
+									<i class="fa fa-money-bill"></i>
+									<p>$10</p>
+									<span>111</span>
+								</a>
+							</div>
+							<div class="modalCash-item">
+								<a href="javasript:void(0)">
+									<i class="fa fa-money-bill"></i>
+									<p>$20</p>
+									<span>23</span>
+								</a>
+							</div>
+							<div class="modalCash-item">
+								<a href="javasript:void(0)">
+									<i class="fa fa-money-bill"></i>
+									<p>$50</p>
+									<span>3</span>
+								</a>
+							</div>
+							<div class="modalCash-item">
+								<a href="javasript:void(0)">
+									<i class="fa fa-money-bill"></i>
+									<p>$100</p>
+									<span></span>
+								</a>
+							</div>
+						</div>
+						<div class="modalCash-count">
+							<div class="modalCash-item">
+								<label for="id05">Received Amount: </label>
+								<input id="id05" type="text" value="$ 150.00">
+							</div>
+							<div class="modalCash-item">
+								<label for="id06">Change due: </label>
+								<input id="id06" type="text" value="$ 150.00">
+							</div>
+						</div>
+					</div>
+					<div class="modalCash-footer">
+						<div class="modalCash-f-left">
+							<div class="modalCash-group">
+								<span><i class="fa fa-money-bill"></i>$1</span>
+								<div class="return-result">
+									<span>x</span>
+									4
+									<button class="button-remove"><i class="fa fa-times"></i></button>
+								</div>
+							</div>
+							<div class="modalCash-group">
+								<span><i class="fa fa-money-bill"></i>$5</span>
+								<div class="return-result">
+									<span>x</span>
+									4
+									<button class="button-remove"><i class="fa fa-times"></i></button>
+								</div>
+							</div>
+							<div class="modalCash-group">
+								<span><i class="fa fa-money-bill"></i>$10</span>
+								<div class="return-result">
+									<span>x</span>
+									4
+									<button class="button-remove"><i class="fa fa-times"></i></button>
+								</div>
+							</div>
+							<div class="modalCash-group">
+								<span><i class="fa fa-money-bill"></i>$20</span>
+								<div class="return-result">
+									<span>x</span>
+									4
+									<button class="button-remove"><i class="fa fa-times"></i></button>
+								</div>
+							</div>
+							<div class="modalCash-group">
+								<span><i class="fa fa-money-bill"></i>$50</span>
+								<div class="return-result">
+									<span>x</span>
+									4
+									<button class="button-remove"><i class="fa fa-times"></i></button>
+								</div>
+							</div>
+							<div class="modalCash-group">
+								<span><i class="fa fa-money-bill"></i>$100</span>
+								<div class="return-result">
+									<span>x</span>
+									4
+									<button class="button-remove"><i class="fa fa-times"></i></button>
+								</div>
+							</div>
+						</div>
+						<div class="modalCash-f-right">
+							<button class="button-style button-create">Finalize</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Modal Check -->
+<div class="modal modal-pos modal-giftCard-right fade" data-backdrop="false" id="modalGiftCard-right" tabindex="-1"
+     role="dialog">
+	<div class="modal-dialog modal-xxl" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<div class="modal-title"><span><i class="fa fa-wallet"></i></span>Popup Cash</div>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<i class="fa fa-times"></i>
+				</button>
+			</div>
+			<div class="modal-body">
+				<div class="modalgiftCard-right-content">
+					<div class="modalgiftCard-right-header">
+						<label for="id07">Amount: </label>
+						<input id="id07" type="text" value="$ 150.00">
+					</div>
+					<div class="modalgiftCard-right-body">
+						<div class="modalgiftCard-right-scan">
+							<div class="modalgiftCard-right-scan-item">
+								<div class="scan-header">
+									<div class="scan-title">
+										Input giftcard code - scan
+									</div>
+									<button class="button-scan-add">Add giftcard</button>
+								</div>
+								<div class="scan-qr">
+									<div class="scan-image">
+										<img src="assets/images/qrcode.gif" alt="">
+									</div>
+									<div class="scan-content">
+										<div class="scan-price">
+											<div class="scan-price-item">
+												<label for="id09">Giftcard current amount: </label>
+												<div>$ 150.00</div>
+											</div>
+											<div class="scan-price-item">
+												<label for="id10">Amount left: </label>
+												<div>$ 150.00</div>
+											</div>
+										</div>
+										<div class="scan-remove">
+											<button class="button-scan-remove"><i class="fa fa-trash"></i>Remove Gift
+											</button>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="modalgiftCard-right-footer">
+						<button class="button-style button-create">Finalize</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+</body>
+</html>
